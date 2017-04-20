@@ -1,24 +1,28 @@
-var gameObject = {
-  PageSetup: function(){
-    $("body").css
-  } 
-};
 
-gameObject.PageSetup();
+$("#introstartbutton").click(function() {
+            $("#introwrap").css({
+              "display": "none",
+            });
+            $("#gamestarted").css({
+              "display": "inherit",
+            });
+            start();
+        });
+  
+function start() {
+  $.ajax({
+    url: "https://opentdb.com/api.php?amount=10&type=multiple",
+    type: "GET"
+  }).done(function(response) {
+    $("#gamecategory").html(response.results[0].category);
+    $("#gamequestion").html(response.results[0].question);
+    $(".answers").text(response.results[0].correct_answer);
+  });
+};
 
 
 /*
-Steps to build game
-intro page:
-    background image
-    header "trivia game"
-    div box holding the game
-  description
-  start button
-    start button on click
-      hide description
-      hide button
-      initiate game start function
+
   Game start
     bring up random question
     4 answers

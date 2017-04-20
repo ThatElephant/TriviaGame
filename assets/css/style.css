@@ -1,0 +1,117 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 100%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#heading {
+    width: 75%;
+    height: 100px;
+    border-bottom: 5px solid #01a1ff;
+}
+
+#heading h1 {
+	font-size: 40px;
+    padding: 25px;
+    margin-left: 187px;
+    color: #01a1ff;
+    font-weight: bold;
+}
+
+#gamewrap {
+    width: 450px;
+    height: 500px;
+    background-color: #00d0ff;
+    border-radius: 30px;
+    border: 5px solid #004fea;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-image: url("../images/gamebackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#introwrap {
+	margin: 16px;
+    height: 460px;
+    background-color: #fff;
+    border: 5px solid #0f0f93;
+    border-radius: 20px;
+    display: inherit;
+}
+
+#introwrap span {
+	font-size: 30px;
+    border-bottom: 5px dotted #114bc0;
+    padding-bottom: 10px;
+}
+
+#introwrap p {
+	text-align: center;
+    margin: 35px;
+    font-size: 20px;
+    word-spacing: 0px;
+    color: #004bc0;
+}
+
+#introstartbutton {
+    margin-left: 148px;
+    margin-top: 85px;
+    width: 110px;
+    height: 40px;
+    border: 3px solid #202ab0;
+    background-color: #00d0ff;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #004bc0;
+    cursor: pointer;
+}
+
+#introstartbutton:hover {
+	background-color: rgb(84, 235, 255);
+	border-color: #4d59f7;
+}
+
+#introstartbutton:active {
+	background-color: #0387a5;
+	border:3px dotted #131967;
+}
+
+#gamestarted {
+	margin: 16px;
+    height: 460px;
+    background-color: #fff;
+    border: 5px solid #0f0f93;
+    border-radius: 20px;
+    display: none;
+}
+
+#gamestarted h2 {
+	line-height: 28px;
+    margin: 15px;
+    font-size: 18px;
+    border-bottom: 3px dashed;
+	padding-bottom: 25px;
+}
+
+#gamestarted span {
+	margin: 0px 20px;
+}
+
+.answers {
+    background-color: #00d0ff;
+    border: 3px solid #004fea;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    opacity: .6;
+}
+
+.answers:hover {
+	opacity: 1;
+}

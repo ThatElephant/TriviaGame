@@ -4,10 +4,34 @@
 	<title>Trivia Game</title>
 	<link href="assets/css/reset.css" type="text/css" rel="stylesheet">
 	<link href="assets/css/style.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
 </head>
 <body>
+	<div id="heading">
+		<h1>Trivia Game</h1>
+	</div>
+	<div id="gamewrap">
+		<div id="introwrap">
+			<p><span>Welcome to Trivia!</span><br><br><br>
+			you will have 15 questions<br>
+			30 second timer for each question.<br>
+			The questions and topics will remain a mystery for you to find out,<br>
+			Good luck!</p>
+			<button id="introstartbutton">Start</button>
+		</div>
+		<div id="gamestarted">
+			<h2>Category:<br><span id="gamecategory"></span></br>
+			Question:<br><span id="gamequestion"></span></h2>
+			<li class="answers">A:<span id="" </li>
+			<li class="answers">B: </li>
+			<li class="answers">C: </li>
+			<li class="answers">D: </li>
 
+		</div>
+	</div>
 </body>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 </html>
