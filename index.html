@@ -16,22 +16,29 @@
 	<div id="gamewrap">
 		<div id="introwrap">
 			<p><span>Welcome to Trivia!</span><br><br><br>
-			you will have 15 questions<br>
+			you will have 10 questions<br>
 			30 second timer for each question.<br>
 			The questions and topics will remain a mystery for you to find out,<br>
 			Good luck!</p>
 			<button id="introstartbutton">Start</button>
 		</div>
 		<div id="gamestarted">
-			<h2>Category:<br><span id="gamecategory"></span></br>
-			Question:<br><span id="gamequestion"></span></h2>
-			<li class="answers">A:<span id="" </li>
-			<li class="answers">B: </li>
-			<li class="answers">C: </li>
-			<li class="answers">D: </li>
-
+			<h2>Question:<br><span id="gamequestion"></span></h2>
+			<li class="answers answersbox1">A: <span id="answer1"></span></li>
+			<li class="answers answersbox2">B: <span id="answer2"></span></li>
+			<li class="answers answersbox3">C: <span id="answer3"></span></li>
+			<li class="answers answersbox4">D: <span id="answer4"></span></li>
+		</div>
+		<div id="gameend">
+			<h1>Results</h1><br><br><br>
+			<p>Correct: <span id="correctnumberplace"></span><br>
+			Wrong: <span id="wrongnumberplace"></p>
+			<button id="retrybutton">Retry</button>
 		</div>
 	</div>
+	<div id="timerwrap">
+	</div>
+
 </body>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 </html>

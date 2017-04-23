@@ -115,3 +115,71 @@ body {
 .answers:hover {
 	opacity: 1;
 }
+
+#gameend {
+    margin: 16px;
+    height: 460px;
+    background-color: #fff;
+    border: 5px solid #0f0f93;
+    border-radius: 20px;
+    display: none;
+}
+
+#gameend h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    border-bottom: 5px dotted #114bc0;
+    color: #004bc0;
+    font-weight: bold;
+}
+
+#gameend p {
+    text-align: center;
+    margin: 35px;
+    font-size: 20px;
+    color: #004bc0;
+    line-height: 65px;
+}
+
+#retrybutton {
+    margin-left: 148px;
+    margin-top: 50px;
+    width: 110px;
+    height: 40px;
+    border: 3px solid #202ab0;
+    background-color: #00d0ff;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #004bc0;
+    cursor: pointer;
+}
+
+#retrybutton:hover {
+    background-color: rgb(84, 235, 255);
+    border-color: #4d59f7;
+}
+
+#retrybutton:active {
+    background-color: #0387a5;
+    border:3px dotted #131967;
+}
+
+#timerwrap {
+    position: absolute;
+    left: 585px;
+    top: 185px;
+    background-color: #7dd5ed;
+    border: 15px double #196beb;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+}
+
+#timerwrap p {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    padding-top: 45px;
+    color: #004bc0;
+}
